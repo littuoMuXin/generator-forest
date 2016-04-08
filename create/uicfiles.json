@@ -1,0 +1,18 @@
+{
+  "staticFiles": [
+    "ui-component/src/components/base/Card.js",
+    "ui-component/src/components/base/Card.less",
+    "ui-component/src/components/base/enhance.js",
+    "ui-component/src/components/base/FoldText.js",
+    "ui-component/src/components/base/FoldText.less",
+    "ui-component/src/components/base/leftright.less",
+    "ui-component/src/components/base/LeftRightList.js",
+    "ui-component/src/components/base/Wangwang.js",
+    "ui-component/src/components/base/Wangwang.less",
+    "ui-component/src/components/BuyerCard/index.js",
+    "ui-component/src/components/SellerCard/index.js",
+    "ui-component/src/components/Smarted/index.js",
+    "ui-component/src/components/TradeBaseInfo/index.js",
+    "ui-component/src/components/TradeBaseInfo/index.less"
+  ]
+}

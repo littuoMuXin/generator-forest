@@ -1,0 +1,37 @@
+[
+  {
+    "name": "appPath",
+    "type": "String",
+    "required": false,
+    "desc": "dev app folder, relative to cwd",
+    "defaults": "src"
+  },
+  {
+    "name": "skip-install",
+    "type": "Boolean",
+    "required": false,
+    "desc": "skip npm install and bower install after project generated",
+    "defaults": false
+  },
+  {
+    "name": "skip-welcome-message",
+    "type": "Boolean",
+    "required": false,
+    "desc": "skip yo welcome message",
+    "defaults": false
+  },
+  {
+    "name": "skip-message",
+    "type": "Boolean",
+    "required": false,
+    "desc": "skip install message",
+    "defaults": true
+  },
+  {
+    "name": "default",
+    "type": "Boolean",
+    "required": false,
+    "desc": "use default configurations",
+    "defaults": false
+  }
+]

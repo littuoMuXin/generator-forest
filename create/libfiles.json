@@ -1,0 +1,9 @@
+{
+  "staticFiles": [
+    "lib/src/lib/dateFormat.js",
+    "lib/src/lib/myFlexible.js",
+    "lib/src/lib/taskqueue.js",
+    "lib/src/lib/tb.js",
+    "lib/src/lib/utils.js"
+  ]
+}

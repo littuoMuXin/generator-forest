@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>DEMO</title>
+
+  <link rel="stylesheet" href="http://g.alicdn.daily.taobao.net/oc/framework/0.0.2/styles.css">
+
+  <script>
+    <!--配置信息,理论上这里是服务端输出-->
+    window.AppConfig = {
+      layouts: {
+        "lg": [
+          {"w": 8, "h": 1, "x": 0, "y": 0, "i": "TradeBaseInfo", "moved": false, "static": false},
+          {"w": 4, "h": 1, "x": 8, "y": 0, "i": "BuyerCard", "moved": false, "static": false},
+          {"w": 4, "h": 1, "x": 8, "y": 0, "i": "SellerCard", "moved": false, "static": false}
+        ],
+        "sm": [
+          {"w": 8, "h": 1, "x": 0, "y": 0, "i": "TradeBaseInfo", "moved": false, "static": false},
+          {"w": 4, "h": 1, "x": 0, "y": 0, "i": "BuyerCard", "moved": false, "static": false},
+          {"w": 4, "h": 1, "x": 4, "y": 0, "i": "SellerCard", "moved": false, "static": false}
+        ]
+      }
+    }
+  </script>
+
+</head>
+<body>
+<div id="one-crm"></div>
+
+
+<script src="http://g.alicdn.daily.taobao.net/oc/framework/0.0.2/index.js"></script>
+
+<!--
+开发路径
+  包含了layout的处理
+  loader相关(webpack)
+切换到线上会是另外一个入口
+  layout
+  loader(运行时loader)
+-->
+<script src="/pagedev.js"></script>
+
+</body>
+</html>

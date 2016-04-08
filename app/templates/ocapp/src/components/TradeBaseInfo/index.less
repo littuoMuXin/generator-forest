@@ -1,0 +1,74 @@
+.trade-card {
+  color: #1C1C1C;
+  font-size: 12px;
+  .sub-title {
+    margin: 14px 0 8px 0;
+    color: #999;
+  }
+
+  ul.category {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px dashed #91CDBC;
+    .desc {
+      font-size: 14px;
+      font-weight: bold;
+      margin-top:10px;
+      img {
+        max-width: 20px;
+        max-height: 20px;
+        padding: 0 5px;
+      }
+    }
+    //主要信息是50%宽度处理
+    &:first-child {
+      li {
+        width: 50%;
+      }
+      li:last-child {
+        border-right: transparent;
+      }
+    }
+    li {
+      padding: 0 10px;
+      box-sizing: border-box;
+      border-right: 1px dashed #E7EAEC;
+      border-bottom: 1px dashed #E7EAEC;
+      &:nth-child(5n) {
+        border-right: transparent;
+      }
+      height: 74px;
+      width: 20%;
+      float: left;
+    }
+  }
+
+  .child-trade {
+    table {
+      width: 100%;
+      thead {
+        background: #F0F8F6;
+        th {
+          padding: 12px 0;
+          text-align: left;
+        }
+      }
+      tbody.item {
+        td {
+          padding: 12px 0;
+        }
+        img {
+          padding-right: 10px;
+        }
+        .name {
+          margin: 6px 0;
+        }
+      }
+    }
+    img {
+      width: 48px;
+      height: 48px;
+    }
+  }
+}

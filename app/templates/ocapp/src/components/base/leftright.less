@@ -1,0 +1,45 @@
+.line-cell {
+  margin: 5px 0;
+
+  .line-name {
+    display: inline-block;
+    height: 16px;
+    position: relative;
+    vertical-align: top;
+    padding-right: 5px;
+  }
+  .line-name.justify {
+    text-align: justify;
+    color: #999;
+    &:before {
+      content: ":";
+      position: absolute;
+      right: -1px;
+    }
+    &:after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+    }
+  }
+
+  .line-left {
+    display: inline-block;
+    float: left;
+    width: 90px;
+  }
+  .line-right {
+    display: inline-block;
+    color: #333;
+    width: ~'calc(100% - 90px)';
+    .line-detail {
+      display: inline-block;
+      word-break: break-all;
+      word-wrap: break-word;
+      img {
+        vertical-align: bottom;
+      }
+    }
+  }
+
+}

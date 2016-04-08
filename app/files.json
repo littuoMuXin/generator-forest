@@ -1,0 +1,34 @@
+{
+  "staticFiles": [
+    "ocapp/src/components/base/Card.js",
+    "ocapp/src/components/base/Card.less",
+    "ocapp/src/components/base/enhance.js",
+    "ocapp/src/components/base/FoldText.js",
+    "ocapp/src/components/base/FoldText.less",
+    "ocapp/src/components/base/leftright.less",
+    "ocapp/src/components/base/LeftRightList.js",
+    "ocapp/src/components/base/Wangwang.js",
+    "ocapp/src/components/base/Wangwang.less",
+    "ocapp/src/components/BuyerCard/index.js",
+    "ocapp/src/components/SellerCard/index.js",
+    "ocapp/src/components/Smarted/index.js",
+    "ocapp/src/components/TradeBaseInfo/index.js",
+    "ocapp/src/components/TradeBaseInfo/index.less",
+    "ocapp/src/components/app.js",
+    "ocapp/src/index.html",
+    "ocapp/src/index.js",
+    "ocapp/test/index.spec.js",
+    "ocapp/tools/build.js",
+    "ocapp/tools/srcServer.js",
+    "ocapp/.eslintrc",
+    "ocapp/gitignore",
+    "ocapp/.editorconfig",
+    "ocapp/LICENSE",
+    "ocapp/.babelrc",
+    "ocapp/webpack.config.js",
+    "ocapp/README.md"
+  ],
+  "templates": [
+    "ocapp/package.json"
+  ]
+}
